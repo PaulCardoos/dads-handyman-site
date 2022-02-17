@@ -1,0 +1,15 @@
+.service_column_row{
+    margin:0;
+    padding:0;
+    height:100px;
+    width:400px;
+    border:solid 1px black;
+}
+
+.service_container{
+    padding: 0;
+    height:90%;
+    width:90%;
+    border: solid 1px black;
+
+}
