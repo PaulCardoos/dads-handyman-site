@@ -1,15 +1,13 @@
 import React from 'react'
 import ServiceColumnRow from './ServiceColumnRow'
 
-const ServiceColumn = () => {
+const ServiceColumn = ( {children} ) => {
   return (
-    <div className="container">
-        <div className="col">
-            <div className="row">
-                
-            </div>
+  
+        <div className="col-lg-4 col-xl-4 col-sm-12 col-md-12">
+            {children}
         </div>
-    </div>
+    
   )
 }
 

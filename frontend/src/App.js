@@ -12,7 +12,7 @@ import Contact from "./screens/Contact"
 import Reason from './screens/Reason';
 import RequestService from './screens/RequestService';
 import About from './screens/About';
-
+import { ServiceContext, ServiceProvider } from './context/Context';
 function App() {
   return (
     <div className="App">
@@ -21,7 +21,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/faq" element={<Reason/>}/>
-        <Route path="/services" element={<Services/>}/>
+        <Route path="/services" element={
+        <ServiceProvider>
+          <Services/>
+        </ServiceProvider>
+        }/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/service-request" element={<RequestService/>}/>
         <Route path="/about" element={<About/>}/>

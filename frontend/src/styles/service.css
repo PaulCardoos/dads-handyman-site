@@ -1,15 +1,28 @@
 .service_column_row{
-    margin:0;
     padding:0;
-    height:100px;
-    width:400px;
-    border:solid 1px black;
+    justify-content: center;
+    align-items: center;
+    border-right:solid 1px black;
 }
 
 .service_container{
-    padding: 0;
     height:90%;
     width:90%;
     border: solid 1px black;
 
 }
+
+.service_row{
+    padding:20px;
+    margin: 5px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.service_row:hover{
+    font-size: 32;
+    font-weight: 600;
+    cursor: pointer;
+}
+
