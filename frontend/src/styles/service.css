@@ -26,3 +26,13 @@
     cursor: pointer;
 }
 
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px;
+}
+

@@ -19,19 +19,25 @@ export const services =[
     {
         service_name:"Bathroom",
         service_desc:["Tub and Shower Upgrades","Damage Checking","Caulking","Grout Repair","Ground Cleaning",
-        "Fixture Replacement and Installation", "Bathroom Tile Repair", "Shower and Toiler Handle Replacement", "Vanity"],
+        "Fixture Replacement", "Fixture Installation", "Bathroom Tile Repair", "Toiler Handle Replacement", "Shower Handle Replacement", "Vanity"],
         service_img: "../assets/Bathroom.png"
     },
     {
         service_name:"Fencing",
-        service_desc:["Fence Repairs","Fence Post Replacement","Picket Replacement","Repair or Replace an entire Fences","Reinforcement of an Existing Fence",
-        "power washing fences", "Gate Installation and Repair"],
+        service_desc:["Fence Repairs","Fence Post Replacement","Picket Replacement","Repair Fence", "Replace Fence","Reinforcement of an Existing Fence",
+        "Power Washing", "Gate Installation", "Gate Repair"],
         service_img: "../assets/Fencing.png"
     },
     {
         service_name:"Carpentry",
         service_desc:["Deck","Patio","Shutters","Custom Projects","Dining Rooms",
         "Living Rooms", "Office", "Cabinets", "Furniture","Fence", "Trim"],
+        service_img: "../assets/Carpentry.png"
+    },
+    {
+        service_name:"Miscellaneous",
+        service_desc:["Furnature Assembly","TV Mounting","TV Installation","House Cleaning","Car Cleaning",
+        "Well Installation", "Landscaping", "Snow Removal"],
         service_img: "../assets/Carpentry.png"
     },
 ]

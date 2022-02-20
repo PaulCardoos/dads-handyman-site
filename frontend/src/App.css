@@ -1,4 +1,7 @@
-
+.App{
+  padding-bottom: 25px ;
+  margin-bottom: 25px;
+}
 
 .App-logo {
   height: 40vmin;

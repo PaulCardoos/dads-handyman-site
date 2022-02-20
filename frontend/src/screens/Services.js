@@ -6,11 +6,8 @@ const Services = () => {
   return (
     <Container>
       <h1 className="text-start" style={{margin:"15px"}}>
-        Services
         <ServiceTable/>
       </h1>
-
-
     </Container>
   ) 
 }

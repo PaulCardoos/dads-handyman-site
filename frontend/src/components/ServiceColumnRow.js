@@ -1,18 +1,16 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import { ServiceContext } from '../context/Context'
 import "../styles/service.css"
-import Painting from "../assets/painting.svg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const ServiceColumnRow = ({name, photo}) => {
-  console.log(photo)
-
-
-
+  const {handleOnSelectService} = useContext(ServiceContext)
   return (
     <div className="row service_column_row">
-        <span className="service_row">
-       {name}
+        <span onClick={(e) => handleOnSelectService(e)} className="service_row">
+        <FontAwesomeIcon icon={faCoffee}/>
+        {name}
         </span>
     </div>
   )
