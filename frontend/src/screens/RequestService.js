@@ -11,10 +11,8 @@ const RequestService = () => {
 
   
   return (
-    <FormContainer title={title}>
-    
+    <FormContainer title={title}> 
       <RequestServiceForm/>
-    
     </FormContainer>
   )
 }
